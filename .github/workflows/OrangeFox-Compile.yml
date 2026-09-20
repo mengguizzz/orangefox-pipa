@@ -42,15 +42,6 @@ on:
         - boot
         - recovery
         - vendorboot
-      MAGISK_VERSION:
-        description: 'Specify your Magisk Version'
-        required: true
-        default: 'Magisk'
-        type: choice
-        options:
-        - Magisk
-        - MagiskAlpha
-        - MagiskDelta
       ADD_WLAN_SUPPORT:
         description: 'Add WLAN support (EXPERIMENTAL!!)'
         type: boolean
