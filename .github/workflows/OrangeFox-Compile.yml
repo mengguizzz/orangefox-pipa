@@ -20,11 +20,11 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/ruik3z/Orange-Fox-Recovery-Build-Full-Guide'
+        default: 'https://github.com/mengguizzz/orangefox-build-pipa'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'fox_12.1-a16'
+        default: 'main'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
